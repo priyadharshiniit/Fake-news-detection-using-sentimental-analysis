@@ -1,0 +1,4 @@
+This Fake news detection project consist the technology of implementing fake news using sentimental analaysis. Sentimental analysis is achieved through the technology of Text Blob that is a open source python library for processing textual data and providing results in sentimental score whether positive, neutral or negative.
+Text is preprocessed using NLTK( Natural Language Toolkit ) by process of tokenization, Lemmatization and removal of stopwords. The machine is trained and tested using ML algorithms like Naive bayes, Random forest and Logistic regression algorithm. 
+Comparing to all these 3 algorithm the accuracy score for Naive Bayes was greater. To predict the dynamic news from news website such as Times of India and Google news i used Pygooglenews from google news api to fetch news from google. 
+So by using all these algorithm. Every day's news can be fetched and predicted whether its fake or real news.
